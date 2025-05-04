@@ -32,7 +32,6 @@ class DigitsSumCalculatorTest extends BaseIOTest {
         assertEquals("22\n", updateLineSpliterators(outContent.toString()));
     }
 
-
     @Test
     void containsNoLibsOrStringMethods() throws IOException {
         Path path = Paths.get("src/main/java/com/epam/langSyntax/DigitsSumCalculator.java");
